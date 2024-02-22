@@ -1,3 +1,6 @@
+Deployments on Serverless Framework
+Link: https://www.serverless.com/framework/docs/providers/aws/guide/deploying/
+
 #1 Deploys the cloudformation stack
 serverless deploy
 
@@ -5,4 +8,4 @@ serverless deploy
 serverless remove
 
 #3 Deploys the specific function_name cloudformation stack
-serverless deploy <function_name>
+serverless deploy function --function myFunction
