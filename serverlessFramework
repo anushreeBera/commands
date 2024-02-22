@@ -1,0 +1,8 @@
+#1 Deploys the cloudformation stack
+serverless deploy
+
+#2 Removes the cloudformation stack
+serverless remove
+
+#3 Deploys the specific function_name cloudformation stack
+serverless deploy <function_name>
