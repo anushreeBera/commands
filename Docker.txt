@@ -1,0 +1,5 @@
+1. Copy files to a docker container 
+docker cp foo.txt container_id:/foo.txt
+
+2. Copy folder to a docker container 
+docker cp src/. container_id:/target
