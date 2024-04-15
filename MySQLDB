@@ -1,0 +1,6 @@
+//Import a SQL file
+mysql -u <DB_USER> -p <DB_NAME> < filename.sql
+
+// Import a compressed SQL file in gz format
+// if zcat does not work, try same command with `gzcat`
+zcat myfile.sql.gz | mysql -u <DB_USER> -p<DB_PASSWORD> <DB_NAME>
